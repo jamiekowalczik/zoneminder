@@ -25,7 +25,7 @@ mysql -uroot --password="password" -e "grant all on zm.* to \
 mysqladmin -uroot --password="password" reload
 sudo yum -y install mod_ssl
 sudo sed -i 's/;date.timezone =/date.timezone = "America\/New_York"/g' /etc/php.ini
-mysql zm -u root --password="password" -e "UPDATE Config SET Value = '/zm/cgi-bin-zm/nph-zms' WHERE Name = 'ZM_PATH_ZMS';"
+#mysql zm -u root --password="password" -e "UPDATE Config SET Value = '/zm/cgi-bin-zm/nph-zms' WHERE Name = 'ZM_PATH_ZMS';"
 sudo systemctl enable httpd
 sudo systemctl start httpd
 sudo systemctl enable zoneminder
