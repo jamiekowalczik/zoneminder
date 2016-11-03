@@ -7,8 +7,8 @@ Prerequisites: VirtualBox Vagrant git
 
 1.) # git clone https://github.com/jamiekowalczik/zoneminder.git
 
-2.) update Vagrantfile with the appropriate bridge name (replace wlo1) and IP address.
+2.) Change into the zoneminder directory (# cd zoneminder) then update Vagrantfile with the appropriate bridge name (replace wlo1) and IP address.
 
 3.) # vagrant up
 
-4.) When the machine is fully setup browse to http://<IP Address>/zm - Setup a user account and password!!
+4.) When the machine is fully setup browse to https://[IP Address]/zm - Setup a user account and password!!
